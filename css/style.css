@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+	box-size:border size:
+}
+	.p{font-size:25px}
+	#para{color:blue;} /*-> simple selector */
+	i,b{color:red;} /*-> group selector */	
+		
+	/* Compinator selector*/	
+	/* It select all paragraphs*/
+	div p{
+		color:blue;
+		background-color:violet;
+		}
+		
+	/* It select own child only */
+	div > p {
+		color:green;
+		font-size:20px;
+	}
+	
+	/* div -> next one paragraph change */
+	div + p {
+		color:blue;
+		font-size:30px;
+	} 
+	
+	/* div -> next all paragraphs change */
+	div ~ p{
+		color:violet;
+		font-size:20px;
+	}
+	
+	
+	
